@@ -24,6 +24,8 @@ class MyHomePage extends StatelessWidget {
         title: Text('Expense planer'),
       ),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           Container(
             width: double.infinity,
